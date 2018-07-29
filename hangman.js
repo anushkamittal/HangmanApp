@@ -2,7 +2,7 @@
 var app = angular.module("Hangmanapp",[]);
 app.controller("gamecontroller",['$scope',function($scope){
 
-    var words =["anushka","ashi","yash","mummy","papa","vanshika","samriddhi"];
+    var words =["Coursera","edx","udemy","codeAcademy","aGupieWare","Github","MITOpenCourseware","HackPledge","CodeAvengers","khanAcademy","freecodecamp","HTML5Rocks"];
     $scope.incorrectletterschosen = [];
     $scope.correctletterschosen = [];
     $scope.guess = 6;
